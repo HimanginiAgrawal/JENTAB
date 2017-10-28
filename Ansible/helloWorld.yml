@@ -1,0 +1,5 @@
+# ./ansible-nginx/tasks/hello_World.yml
+
+- name: hello world index page
+  template: src=/home/abhinaya/index.html.j2 dest=/usr/share/nginx/html/index.html
+  

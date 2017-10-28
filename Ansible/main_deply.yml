@@ -1,0 +1,5 @@
+# ./ansible-nginx/main_deploy.yml
+
+- hosts: ec2-name 
+  tasks:
+    - include: 'tasks/install_nginx.yml'

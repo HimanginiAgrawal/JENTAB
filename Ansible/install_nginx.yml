@@ -1,0 +1,18 @@
+# ./ansible-nginx/tasks/install_nginx.yml
+
+- name: Install red hat nginx repo rpm
+  yum:
+    name: http://nginx.org/packages/rhel/7/noarch/RPMS/nginx-release-rhel-7-0.el7.ngx.noarch.rpm
+
+- name: Install nginx 
+  yum:
+   name: nginx
+   state: latest
+
+- name: start nginx 
+  service:
+    name: nginx
+    state: started
+
+# copy the index.html.j2 to ngnix webserver
+- include: 'helloWorld.yml'

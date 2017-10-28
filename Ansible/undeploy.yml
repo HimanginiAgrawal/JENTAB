@@ -1,0 +1,6 @@
+- hosts: ec2-name
+
+  tasks:
+   - service:
+      name: nginx 
+      state: stopped
