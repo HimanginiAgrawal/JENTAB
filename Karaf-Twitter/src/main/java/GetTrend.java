@@ -40,10 +40,10 @@ public class GetTrend extends HttpServlet {
             ConfigurationBuilder confg_b= new ConfigurationBuilder();
         
          confg_b.setDebugEnabled(true)
-            .setOAuthConsumerKey("7d3syEvuKlbdDprpOkAOF7Th7")
-            .setOAuthConsumerSecret("scgsHKgsnZoRI2dbX8ubsOdRfEfS436gqNbADWkB5eoQULg0gs")
-            .setOAuthAccessToken("917203328647413760-Z4TPcjRBugMTt8CKfDmtIKu4W8CGmdC")
-            .setOAuthAccessTokenSecret("SaGRwiFZ5OY0Kvl14B6oEBs8snND4UBWuFaPjRgtk09g9");
+            .setOAuthConsumerKey("")
+            .setOAuthConsumerSecret("")
+            .setOAuthAccessToken("")
+            .setOAuthAccessTokenSecret("");
         
         TwitterFactory twit_fact= new TwitterFactory(confg_b.build());
         twitter4j.Twitter twt= twit_fact.getInstance();
