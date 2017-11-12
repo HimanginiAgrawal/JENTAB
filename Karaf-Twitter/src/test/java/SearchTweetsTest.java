@@ -20,6 +20,7 @@ import twitter4j.TwitterException;
 /**
  *
  * @author Himangini
+ * @author Mudrita
  */
 @RunWith(MockitoJUnitRunner.class)
 public class SearchTweetsTest extends Mockito{
