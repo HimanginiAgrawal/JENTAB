@@ -19,5 +19,5 @@ Members -<br/>
 •	Web Container listens on the IP port 8181 by default, and the Web container uses the Web application context specified by the Web-ContextPath option
 •	To access the application use localhost:8181/Web-ContextPath<br/>
 3. Jenkin -<br/>
-•	Jenkin Integration with github
+•	Jenkin Integration with github</br>
 •	Browse localhost:7070
