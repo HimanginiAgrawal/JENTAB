@@ -16,7 +16,7 @@ Members -<br/>
 •	Used Maven to create a WAR in maven repository<br/>
 •	Install the WAR from maven repository as a web bundle in KARAF osgi container<br/>
 •	Start the bundle to deploy the WAR<br/>
-•	Web Container listens on the IP port 8181 by default, and the Web container uses the Web application context specified by the Web-ContextPath option
+•	Web Container listens on the IP port 8181 by default, and the Web container uses the Web application context specified by the Web-ContextPath option<br/>
 •	To access the application use localhost:8181/Web-ContextPath<br/>
 3. Jenkin -<br/>
 •	Jenkin Integration with github</br>
