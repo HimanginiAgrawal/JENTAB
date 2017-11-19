@@ -20,3 +20,4 @@ Members -<br/>
 •	To access the application use localhost:8181/Web-ContextPath<br/>
 3. Jenkin -<br/>
 •	Jenkin Integration with github
+•	Browse localhost:7070
